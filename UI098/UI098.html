@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>UI098</title>
+</head>
+<body>
+    <main class="container">
+    <div class="wrapper">
+        <section class="box1">
+        <h1>Perfil Supervisor</h1>
+        </section>
+        <section class="box2">
+            <div class="box-item1">
+                <div>
+                <p>Dados supervisor</p>
+                </div>
+                <div class="inputs">
+                    <div>
+                        <label>Nome</label>
+                        <input type="text" name="nome" placeholder="Digite seu nome">
+                        <label>CPF</label>
+                        <input type="cpf" name="cpf" placeholder="000.000.000-00">
+                        <label>Data de Nascimento</label> 
+                        <input type="date" name="date">
+                        <label>Numero Civa</label> 
+                        <input type="text" name="CIVA" placeholder="BR55RJ2112">        
+                    </div>
+                    <div>
+                        <label>País de atuação</label>
+                        <input type="text" name="país" placeholder="Brasil">
+                        <label>E-mail </label>
+                        <input type="email" name="email" placeholder="mariass@civa.com">
+                    </div>
+                </div>
+                <div>
+                    <p>Definições Supervisor</p>
+                    <span>
+                        <button><a href="">Desativar</a></button>
+                        <button><a href="">Ativar</a></button>
+                    </span>
+                    <button class="box2-redefinir">Redefinir Senha</button>
+                    <button class="box2-excluir">Excluir</button>
+                </div>
+            </div>
+
+            <div class="box-item2">
+                <div>
+                    <p>Pontos de vacinação vinculados</p>
+                </div>
+                <div class="tabela" >
+                    <table >
+                        <tr>
+                            <th><input type="checkbox" name="" id=""> </th>
+                            <th>Nome<span class="material-icons">arrow_drop_down</span></th>
+                            <th>Estado<span class="material-icons">arrow_drop_down</span></th>
+                            <th>CEP<span class="material-icons">arrow_drop_down</span></th>
+                            <th>Identificador<span class="material-icons">arrow_drop_down</span></th>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="" id=""> </td>
+                            <td>Recanto do Trovador</td>
+                            <td>Rio de Janeiro</td>
+                            <td>50266-252</td>
+                            <td>5325656</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="" id=""> </td>
+                            <td>Hospital do Pan</td>
+                            <td>Rio de Janeiro</td>
+                            <td>21266-312</td>
+                            <td>8345656</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <p>Definições Ponto de Vacinação</p>
+                    <label>ID Ponto:</label>
+                    <input type="number" name="id" placeholder="12345678">
+                    <button class="box2-adicionar">Adicionar</button>
+                    <button class="box2-excluir2">Excluir</button>
+                </div>
+            </div>
+        </section>
+        <section class="box3">
+            <button class="box3-voltar">Voltar</button>
+            <button class="box3-salvar">Salvar</button>
+        </section>
+    </div>
+    </main> 
+</body>
+</html>
