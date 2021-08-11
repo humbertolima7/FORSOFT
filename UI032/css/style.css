@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 3px solid red; */
+}
+.box {
+    margin-left: 100px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 5px solid rgb(5, 9, 248); */
+}
+.titulo-login {
+    font-size: 25px;
+    align-items: center;
+    color: #133C55;
+    margin-top: 75px;
+    /* border: 3px solid rgb(255, 147, 5); */
+}
+.form-container {
+    /* border: 3px solid rgb(234, 0, 255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.input-container{
+    margin: 20px;
+    color: #133C55;
+    /* border: 2px solid rgb(251, 255, 0); */
+    display: flex;
+    flex-direction: column;
+}
+#input-default{
+    height: 38px;
+    width: 270px;
+    border-radius: 7px;
+    font-size: 14px;
+    border: 1px solid #DFDFDF;
+    padding-left:  14px ;
+    padding-right:  14px ;
+    outline: none;
+}
+.btn{
+    /* border: 3px solid rgb(19, 60, 83); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.btn-entrar {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background: #FF7E66;
+}
+.reset-senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #133C55;
+    font-size: 20px;
+    /* border: 2px solid rgb(7, 196, 7); */
+}
+.reset-civa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none; 
+    font-family: Poppins;
+    font-size: 20px;
+    color: #FF7E66;
+    /* border: 2px solid rgb(7, 152, 196); */
+}
+
+/* BACKGROUND */
+#background-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px  ) { 
+    .background {
+        width: 400px;
+    }
+}
