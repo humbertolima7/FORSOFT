@@ -1,0 +1,51 @@
+h3{
+    text-align: center;
+}
+.box {
+    background-color: rgb(7, 7, 7);
+    color: #fff;
+    width: 490px;
+    height: 200px;
+    margin: auto;
+    padding: 4px 6px;
+    font: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    text-align: center;
+    font-size: 10px;
+}
+.flexbox {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox button {
+    background-color: rgb(74, 153, 243);
+    border-color: rgb(74, 153, 243);
+    width: 100px;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+    margin: 0 15px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer; 
+    display: center;   
+    text-align: center;
+}
+#voltar {
+    color: rgb(74, 153, 243);
+    border-color: rgb(74, 153, 243);
+    background: #fff;
+    border-style:solid;
+}
+.flexbox input{
+    border-radius: 15px;
+    width: 20%;
+    height: 20px;
+    border-style: solid;
+}
